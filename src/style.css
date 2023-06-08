@@ -11,6 +11,7 @@ html{
     grid-template-columns: 1fr 270px;
     grid-template-rows: 56px 1fr ;
     gap: 20px;
+    padding: 35px;
 }
 
 .video-principal{
@@ -29,7 +30,7 @@ html{
 .videos-sugeridos .video{
     display: flex;
     gap: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .video-principal img{
