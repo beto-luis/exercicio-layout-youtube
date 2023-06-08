@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício CSS avançado layout do youtube utilizando Grid</title>
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
+
 <body>
     <main>
         <div class="container">
             <div class="video-principal">
                 <img src="./src/images/video-principal.png" alt="Video principal">
-                <h1>Título do Vídeo de destaque</h1>
+                <div class="informacoes">
+                    <h1 class="titulo-destaque">Título do Vídeo de destaque</h1>
+
+                    <p class="visualizacoes">18 mil visualizações</p>
+
+                    <p class="texto-destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                    dolores debitis ex ipsum doloribus culpa vel aliquam laborum? Provident voluptates cum ducimus
+                    nostrum quis totam voluptas quos similique reprehenderit officia.</p>
+                </div>
             </div>
 
-            <div class="propaganda">propaganda
+            <div class="propaganda">
                 <img src="./src/images/propaganda.png" alt="Propaganda">
             </div>
 
-            <div class="videos-sugeridos"> 
-            <img src="./src/images/videos-sugeridos.png" alt="Videos sugeridos">
-            </div>  
+            <div class="videos-sugeridos">
+                <div class="video">
+                    <img src="./src/images/videos-sugeridos.png" alt="video sugerido">
+
+                    <div class="informacoes">
+                        <h2 class="titulo-videos">Um título de vídeo grande</h2>
+
+                        <p class="info videos-sugeridos">Roberto Carvalho</p>
+                        <p class="info videos-sugeridos">23 mil visualizações</p>
+                        <p class="info videos-sugeridos">há 3 semanas</p>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <img src="./src/images/videos-sugeridos.png" alt="video sugerido">
+
+                    <div class="informacoes">
+                        <h2 class="titulo-videos">Um título de vídeo grande</h2>
+
+                        <p class="info videos-sugeridos">Roberto Carvalho</p>
+                        <p class="info videos-sugeridos">23 mil visualizações</p>
+                        <p class="info videos-sugeridos">há 3 semanas</p>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <img src="./src/images/videos-sugeridos.png" alt="video sugerido">
+
+                    <div class="informacoes">
+                        <h2 class="titulo-videos">Um título de vídeo grande</h2>
+
+                        <p class="info videos-sugeridos">Roberto Carvalho</p>
+                        <p class="info videos-sugeridos">23 mil visualizações</p>
+                        <p class="info videos-sugeridos">há 3 semanas</p>
+                    </div>
+                </div>
+            </div>    
         </div>
-    </main>    
+    </main>
 </body>
+
 </html>
