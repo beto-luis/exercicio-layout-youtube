@@ -51,6 +51,12 @@ html{
     font-size: 14px;
 }
 
+.video-principal .texto-destaque{
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 14px;
+}
+
 .videos-sugeridos .video .titulo-videos{
     font-family: 'roboto';
     font-weight: 700;
