@@ -10,6 +10,7 @@ html{
                          "video-principal videos-sugeridos";
     grid-template-columns: 1fr 270px;
     grid-template-rows: 56px 1fr ;
+    gap: 20px;
 }
 
 .video-principal{
@@ -39,24 +40,26 @@ html{
     margin-bottom: 8px;
     font-family: 'roboto';
     font-weight: 800;
-    size: 18px;
+    font-size: 18px;
 }
 
 .video-principal .visualizacoes{
     margin-bottom: 8px;
     font-family: 'roboto';
     font-weight: 300;
-    size: 14px;
+    font-size: 14px;
 }
 
-.video .titulo-videos{
+.videos-sugeridos .video .titulo-videos{
     font-family: 'roboto';
     font-weight: 700;
-    size: 14px;
+    font-size: 14px;
+    margin-bottom: 7px;
 }
 
 .video p{
     font-family: 'roboto';
     font-weight: 300;
-    size: 11px;
+    font-size: 11px;
+    margin-bottom: 5px;
 }
